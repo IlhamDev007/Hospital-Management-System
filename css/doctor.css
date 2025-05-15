@@ -1,0 +1,107 @@
+.doc-title {
+    margin-top: 30px;
+    margin-left: 100px;
+    color: #1D2A4D;
+}
+
+
+hr.botm-line {
+    margin-left: 100px;
+    height: 3px;
+    width: 60px;
+    background: blue;
+    border: 0;
+}
+
+
+.doctor-scroll-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 1260px;
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.doctor-team-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    /* For Firefox */
+    -ms-overflow-style: none;
+    /* For Internet Explorer */
+}
+
+.doctor-team-container::-webkit-scrollbar {
+    display: none;
+    /* For Chrome, Safari, and Edge */
+}
+
+.doctor-card {
+    /* min-width: 300px; 
+max-width: 300px; */
+    width: 300px;
+    /* height: 300px; */
+    height: 350px;
+    flex-shrink: 0;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-card img {
+    width: 250px;
+    height: 240px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.doctor-card h3 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.doctor-card p {
+    font-size: 12px;
+    color: #777;
+    margin: 0;
+}
+
+.doctor-scroll-arrow {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    font-size: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-scroll-arrow.left {
+    left: 10px;
+}
+
+.doctor-scroll-arrow.right {
+    right: 10px;
+}
+
+.doctor-scroll-arrow:hover {
+    background-color: #0056b3;
+}

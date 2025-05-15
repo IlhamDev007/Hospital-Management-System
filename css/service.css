@@ -1,0 +1,62 @@
+#service {
+    margin-top: 50px;
+}
+
+.ser-title {
+    margin-top: 30px;
+    margin-left: 5px;
+    color: #1D2A4D;
+}
+
+hr.ser-botm-line {
+    margin-left: 5px;
+    height: 3px;
+    width: 60px;
+    background: blue;
+    border: 0;
+}
+
+.ser-line{
+    margin-left: 5px;
+    width: 100%;
+    background: #D3D3D3;
+    border: 0;
+}
+
+
+/* hr.botm-line {
+    margin-left: 100px;
+    height: 3px;
+    width: 60px;
+    background: blue;
+    border: 0;
+} */
+
+/* hr.botm-line {
+    height: 3px;
+    width: 60px;
+    background: blue;
+    position: relative;
+    border: 0;
+    margin: 20px 0 20px 0;
+} */
+
+.icon i {
+    color: #0cb8b6;
+    /* color: #1D2A4D; */
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.service-info {
+    margin-bottom: 20px;
+}
+
+.icon-info h4 {
+    padding-bottom: 15px;
+}
+
+.icon-info p {
+    font-size: 15px !important;
+}
+
