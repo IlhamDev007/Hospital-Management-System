@@ -20,4 +20,4 @@ A **role-based web application** designed to streamline hospital operations, fea
 - **Server**: XAMPP (Apache)
 
 ### Preview:
-![Preview]([assets/screenshot.png](https://github.com/IlhamDev007/Hospital-Management-System/blob/ed0b9310e3921e7a057f6234c86365c6878b5f87/img/Preview.png))
+![Preview](https://github.com/IlhamDev007/Hospital-Management-System/blob/babca9db23816051908fc3d5db268babefbe8489/Preview.png)
